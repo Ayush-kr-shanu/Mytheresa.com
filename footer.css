@@ -1,0 +1,286 @@
+/* footer  */
+
+.h1{
+    text-align: center;
+    font-size: 15px;
+    font-family:Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+}
+.ul{
+    font-size: 15px;
+    font-family:Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    margin-top: 25px;
+    margin-left: 55px;
+}
+.ul1{
+    font-size: 15px;
+    font-family:Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    margin-top: 25px;
+    margin-left: -75px;
+}
+.para{
+    text-align: center;
+    text-align:initial;
+    width: 80%;
+    margin: 10px auto 20px auto;
+    font-size: 12px;
+    line-height: 16px;
+    box-sizing: inherit;
+    letter-spacing: .8px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+.para1{
+    text-align: center;
+    text-align:initial;
+    width: 100%;
+    margin: 5px auto auto 70px;
+    line-height: 13px;
+    font-size: 11px;
+    box-sizing: inherit;
+    letter-spacing: .8px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+.para2{
+    text-align: center;
+    text-align:initial;
+    width: 100%;
+    margin: 5px auto auto -60px;
+    line-height: 13px;
+    font-size: 11px;
+    box-sizing: inherit;
+    letter-spacing: .8px;
+    font-family: Arial,Helvetica,sans-serif;
+}
+a{
+    color: black;
+}
+#ul{
+    display: flex;
+    margin-bottom: 30px;
+}
+#ul>div:first-child{
+    width: 40%;
+    margin:20px auto auto auto;
+}
+#ul>div:last-child{
+    width: 40%;
+    margin:20px auto auto auto;
+}
+#lastP{
+    margin-bottom: 30px;
+}
+#stores{
+    width: 100%;
+    display: flex;
+}
+#stores>img{
+    width: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#stores>img:last-child{
+    width: 10%;
+    display: block;
+    margin-top: 20px;
+    margin-left: -480px;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+#foot{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+#foot>div{
+    width: 25%;
+}
+.h2{
+    margin-top: 20px;
+    justify-content: space-between;
+    font-family:Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.tick{
+    text-align: justify;
+    font-size: 14px;
+    font-family:Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    margin-top: 15px;
+    margin-left: -35px;
+}
+.tick::before{
+    font-size: 17px;
+    color: grey;
+    margin-left: -18px;
+    content: '✓';
+
+}
+.para3{
+    color: grey;
+    font-size: 14px;
+    list-style: none;
+    text-align: justify;
+}
+#foot>div:nth-child(2){
+    margin-left: 30px
+}
+.para4{
+    color: grey;
+    font-size: 15px;
+    list-style: none;
+    text-align: justify;
+    line-height: 25px;
+    margin-left: 40px;
+}
+#foot>div:nth-child(2)>p{
+    margin-left: 40px;
+}
+#foot>div:nth-child(3)>p{
+    width: 20px;
+}
+.para5{
+    color: grey;
+    font-size: 15px;
+    list-style: none;
+    text-align: justify;
+    line-height: 25px;
+    margin-top: -5px;
+}
+.para4:hover{
+    color: black;
+}
+.para5:hover{
+    color: black;
+}
+#foot>div:nth-child(4){
+    width: 40%;
+}
+div>input{
+    width: 220px;
+    padding: 5px 12px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    margin-bottom: 15px;
+}
+div>button{
+    margin-left: -25px;
+    padding: 6px 15px;
+    border: none;
+    background-color: rgb(235, 233, 233);
+}
+#foot>div:last-child>a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+a>span{
+    font-size: 20px;
+    font-weight: 590;
+    color: grey;
+}
+#foot>div>a>span:hover{
+color: black;
+}
+.para6{
+    font-size: 15px;
+    list-style: none;
+    text-align: justify;
+    line-height: 25px;
+    margin-bottom: 20px;   
+    font-family: Arial, Helvetica, sans-serif;
+}
+#follow{
+    font-size: 15px;
+}
+#social>img{
+    width: 7%;
+    margin-bottom: 60px;
+}
+#lastBox{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#lastBox>div{
+    display: flex;
+}
+#lastBox>div:first-child>img{
+    width: 5%;
+}
+#lastBox>div:last-child{
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+    color: grey;
+    width: 45%;
+    margin-left: 80px;
+    margin-top: -10px;
+}
+#lastBox>div:last-child>img{
+    width: 20%;
+    height: 20px;
+}
+#copyright{
+    color: grey;
+    font-size: 15px;
+    margin-left: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+#lastBox>div>img:nth-child(2){
+    width: 10%;
+    height: 20px;
+}
+#lastBox>div>img:nth-child(3){
+    width: 6%;
+    height: 10px;
+    margin: 5px 10px 0px 5px;
+}
+#lastBox>div>img:nth-child(4){
+    width: 4%;
+    height: 15px;
+}
+#lastBox>div>img:nth-child(5){
+    width: 9%;
+    height: 30px;
+    margin: -5px 10px 0px 10px;
+}
+#lastBox>div>img:nth-child(6){
+    width: 5%;
+    height: 20px;
+}
+#lastBox>div>img:nth-child(7){
+    width: 7%;
+    height: 20px;
+    margin: 0px 10px;
+}
+#lastBox>div>img:nth-child(8){
+    width: 10%;
+    height: 25px;
+    margin-right: 10px;
+}
+#lastBox>div>img:nth-child(9){
+    width: 12%;
+    height: 30px;
+    margin-top: -5px;
+}
+.hr{
+    border: none;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+#titleChild{
+    font-size: 15px;
+    font-family: Futura-Medium,Century Gothic,Gill Sans,Helvetica,Arial,sans-serif;
+    margin-top: 20px;
+    margin-left: 122px;
+}
