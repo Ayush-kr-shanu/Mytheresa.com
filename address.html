@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery Address</title>
+    <link rel="stylesheet" href="address.css">
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div class="logo">
+            <img src="https://www.mytheresa.com/skin/frontend/mytheresa/default/images/logo.png?v=20220614T171237" width="294px" alt="">
+        </div>
+        <div id="payment-navbar">
+            <p>SHOPPIN BAG</p>
+            <p>DELEVERY</p>
+            <p>PAYMENT</p>
+            <p>CONFIRM</p>
+        </div>
+
+
+        <div id="delivery-container">
+
+
+
+            <div class="address">
+
+                <p>SHIPPING ADDRESS</p>
+                <P class="color-gray">Please enter your shipping address in the form below.</P>
+                <div class="color-gray">
+                    <label for="packing station"> <input type="checkbox">Send to packing station</label>
+                </div>
+
+                <br>
+
+
+                <div class="gender color-gray">
+                    <label for="ms"><input type="radio" name="pre"> Ms. *</label>
+                    <label for="mrs"><input type="radio" name="pre"> Mrs. *</label>
+                    <label for="mr"><input type="radio" name="pre"> Mr. *</label>
+                </div>
+                <br>
+
+                <form>
+
+                    <input type="text" placeholder="first name">
+                    <input type="text" placeholder="last name">
+                    <input type="text" placeholder="company">
+                    <input type="text" placeholder="street *">
+                    <input type="text" placeholder="house no *">
+                    <input type="text" placeholder="address line 2">
+                    <input type="text" placeholder="postcode">
+                    <input type="text" placeholder="city">
+                    <select name="country" id="country">
+                <option value="india">India</option>
+            </select>
+                    <input type="number" placeholder="mobile phone *">
+                    <p>* required text</p>
+                </form>
+
+                <p class="bold">BILLING ADDRESS</p>
+                <p class="color-gray">If your billing address differs from your shipping address, please click "add billing address".</p>
+
+
+
+            </div>
+            <div class="shipping-method">
+                <p>SHIPPING METHOD</p>
+                <div class="text">
+                    <p class="color-gray">Due to a high volume of orders, delays of up to 2 days may occur. We apologize for any inconvenience this may cause. Please note that this delay applies to orders placed with both standard and express shipping.</p>
+                </div>
+                <hr>
+
+                <div class="flex-last">
+                    <div>
+                        <p>DHL</p>
+
+                        <div>
+                            <label for="dhl"><input name = "dhl" type="radio">DHL standard</label><br>
+                        </div>
+                        <div style="margin-top:10px">
+                            <label for="dhl"><input name = "dhl" type="radio">DHL express</label>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="/dhl.PNG" alt="">
+                        <br>
+                        <p>€ 0,00</p>
+                        <p>€ 19,00</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="flex-last">
+                    <div>
+                        <p>UPS</p>
+
+                        <div>
+                            <label for="ups"><input name = "dhl" type="radio">DHL standard</label><br>
+                        </div>
+                        <div style="margin-top:10px">
+                            <label for="ups"><input name = "dhl" type="radio">DHL express</label>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="/uno.PNG" alt="">
+
+
+                        <br>
+                        <p>€ 0,00</p>
+                        <p>€ 19,00</p>
+                    </div>
+                </div>
+                <hr>
+                <p>
+                    PACKAGING OPTIONS
+
+                </p>
+                <div class="flex-last">
+                    <div>
+
+                        <label> <input  name="packing" type="radio">
+                        Mytheresa packaging
+                        </label>
+                        <p style="margin-top:0px ; margin-left: 35px;">Free</p>
+                        <img src="https://www.mytheresa.com/skin/frontend/mytheresa/default/images/package/package_mytheresa_2x.jpg" alt="">
+
+                    </div>
+                    <div>
+                        <label> <input name="packing" type="radio">
+                    Eco packaging
+                        </label>
+                        <p style="margin-top:0px ; margin-left: 35px;">Free</p>
+                        <img src="https://www.mytheresa.com/skin/frontend/mytheresa/default/images/package/package_brown_2x.jpg" alt="">
+                    </div>
+
+                </div>
+                <hr>
+                <p>
+                    CLIMATE NEUTRAL OPTION
+                </p>
+                <div class="flex-last">
+                    <label> <input type="radio">Help offset the carbon emissions of your order </label>
+                    <p>€ 0,25</p>
+                </div>
+                <hr>
+
+            </div>
+        </div>
+
+        <p class="btn-back">ADD BILLING ADDRESS</p>
+
+        <div class="a" class="paypel">
+            <p class="btn-back back">BACK TO SHOPPING BAG</p>
+            <p class="next">PROCEED TO CHECKOUT</p>
+        </div>
+        <p style="width : 35% ; font-size :17px " class="color-gray">Please note: By clicking this button, all data listed on this page will be erased for security reasons.</p>
+        <hr>
+        <p style="text-align :center ">You can also place your order via telephone.</p>
+        <div class="bottom ">
+            <div>
+                <img src="/phone.png " alt="error ">
+
+
+                <p> CALL US </p>
+
+                <p> +49 89 127695-101</p>
+
+                <p> Available 24/7
+                </p>
+                <p>
+                    In German: Monday through Friday, from 8:00 till 20:00 CET and Saturday, from 9:00 till 18:00
+                </p>
+                <p>CET*</p>
+                <p>
+                    *Except German public holidays.
+                </p>
+            </div>
+            <div>
+                <img src="/email.png " alt=" ">
+                <p> MAIL US</p>
+
+                <p> customercare@mytheresa.com</p>
+                <p>Please note that due to a high amount of requests, we might take a few days to get back to you. We apologize for any inconvenience this may cause.</p>
+
+            </div>
+        </div>
+        <hr>
+        <img src="/bottom.jpg " width="100% " alt=" ">
+    </div>
+
+</body>
+
+
+</html>
+
+<script src="./address.js"></script>

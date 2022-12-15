@@ -1,0 +1,202 @@
+html {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    height: 100%;
+    background-color: white;
+    font-size: 120%;
+    letter-spacing: .03em;
+}
+ 
+html::-webkit-scrollbar {
+    width: 10px;
+    background-color: white;
+}
+
+html::-webkit-scrollbar-thumb {
+    border-radius: 25px;
+    /* background-color: black; */
+    background: linear-gradient(black, grey);
+}
+#main{
+    width: 80% !important;
+    margin: auto !important;
+}
+#delivery-container {
+    display: flex;
+    margin-top: 100px;
+}
+
+#delivery-container>div {
+    width: 50%;
+    padding-left: 1%;
+}
+
+#delivery-container>div:last-child {
+    padding-left: 4%;
+    width: 45%;
+    border-left: 1px solid rgb(227, 202, 202);
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1;
+    width: 90%;
+    gap: 15px;
+}
+
+input,
+select {
+    height: 50px;
+    font-size: 16px;
+    border: 1px solid rgb(227, 202, 202);
+    opacity: 70%;
+}
+
+input[type="radio"],
+label,
+input[type="checkbox"] {
+    margin-right: 10px;
+    height: 20px;
+}
+
+.text {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    box-sizing: border-box;
+    padding: 1.5% 3%;
+    text-align: justify;
+}
+
+.color-gray {
+    color: rgb(146, 140, 140);
+}
+
+hr {
+    margin-top: 30px;
+    color: rgb(227, 202, 202);
+}
+
+
+/* .gender {
+            display: flex;
+            align-items: center;
+        } */
+
+.flex-last {
+    display: flex;
+    justify-content: space-between
+}
+
+.flex-last>*:last-child {
+    margin-top: 15px;
+    margin-right: 10px
+}
+
+.flex-last label {
+    font-weight: bold;
+}
+
+.flex-last:nth-last-of-type(2)>div {
+    width: 48%;
+}
+
+.flex-last:nth-last-of-type(2)>div img {
+    margin-left: 60px;
+    width: 40%;
+}
+
+.a {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.a>p:last-child {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: -60px;
+}
+
+.bottom>div {
+    width: 38%;
+    border: 1px solid rgb(227, 202, 202);
+    margin-bottom: 100px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 30px
+}
+
+.bottom p {
+    margin: 5px;
+    padding: 0;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 24px;
+}
+
+.bottom p~p {
+    font-size: 16px;
+    color: rgb(146, 140, 140);
+}
+
+#payment-navbar {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(227, 202, 202);
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+.logo {
+    margin: 150px auto 40px auto;
+    width: 295px
+}
+
+.btn-back {
+    width: 250px;
+    margin-top: 30px;
+    background-color: rgba(252, 246, 246, 0.975);
+    padding: 10px;
+    margin-left: 40px;
+}
+
+.otp {
+    margin: auto;
+    width: 700px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.otp>button {
+    display: block;
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    margin: 20px auto;
+}
+
+.otp>input {
+    width: 200px;
+    height: 35px;
+    display: block;
+    margin: auto;
+}
+
+.otp>h1 {
+    text-align: center;
+}
+
+#main {
+    width: 95%;
+    margin: auto;
+}
