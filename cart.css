@@ -1,0 +1,276 @@
+:root {
+    --red: red
+}
+html::-webkit-scrollbar {
+    width: 10px;
+    background-color: white;
+}
+
+html::-webkit-scrollbar-thumb {
+    border-radius: 25px;
+    /* background-color: black; */
+    background: linear-gradient(black, grey);
+}
+* {
+    letter-spacing: 0.06em;
+}
+
+.black-text {
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+}
+
+br+#shopingbag {
+    width: 80%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    font-family: "Poppins"
+}
+
+#shopingbag>div>p {
+    width: 100%;
+}
+
+
+/* #shopingbag>div>button{
+         border: none;
+         padding: 10px;
+         background-color: black;
+         color: white;
+     } */
+
+.btn {
+    border: none;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+    width: 81%;
+    margin: auto;
+    text-align: center;
+}
+
+table thead {
+    /* background: rebeccapurple; */
+    color: red;
+    font-size: 20px;
+    font-family: system-ui;
+}
+
+table thead th {
+    background-color: white;
+    color: black;
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+table tbody td {
+    padding: 14px;
+}
+
+table>thead>tr>th:first-child {
+    /* background-color: black; */
+    color: wheat;
+    width: 80%;
+}
+
+#pimage {
+    /* border: 2px solid red; */
+    width: 20%;
+    display: flex;
+}
+
+#image>img {
+    width: 100%;
+}
+
+#pimage>p {
+    /* border: 2px solid green; */
+    padding: 5px;
+    letter-spacing: .8px;
+    font-size: 17px;
+    color: #757575;
+}
+
+#para {
+    /* border: 2px solid teal; */
+    margin-top: 20px;
+    font-family: "Poppins"
+}
+
+#para+p {
+    font-family: "Poppins";
+    color: black;
+}
+
+#para>p+p {
+    width: 70%;
+    /* border: 2px solid black; */
+    justify-content: right;
+}
+
+#para>button {
+    /* border: 2px solid rebeccapurple; */
+    padding: 10px;
+    background-color: white;
+    color: black;
+    font-family: "Poppins";
+    border: none;
+}
+
+#para>button:hover {
+    cursor: pointer;
+}
+
+tbody>tr>td {
+    font-family: "Poppins"
+}
+
+#btn {
+    /* border: 2px solid red; */
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-between;
+}
+
+#btn>button {
+    border: none;
+    width: 100%;
+    background-color: white;
+}
+
+hr {
+    width: 80%;
+}
+
+p {
+    width: 80%;
+    /* border: 3px solid green; */
+    margin: auto;
+    font-family: "Poppins"
+}
+
+#check {
+    width: 80%;
+    /* border: 2px solid rebeccapurple; */
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#check>div {
+    height: 90%;
+    /* border: 2px solid rebeccapurple; */
+}
+
+#check>div>div>input {
+    /* background-color: black; */
+    width: 50%;
+    line-height: 40px;
+}
+
+#check>div>div>input+button {
+    width: 35%;
+    padding: 12px;
+    border: none;
+    background-color: #f2f2f2;
+    font-family: "Poppins"
+}
+
+#check>div>div>input+button:hover {
+    background-color: #ece0e0;
+    transition: .7s all ease;
+}
+
+#check #cont {
+    /* margin-top: 70px; */
+    width: 35%;
+    padding: 12px;
+    border: none;
+    background-color: #f2f2f2;
+    font-family: "Poppins";
+    color: black;
+    margin-right: 80%;
+    text-align: center;
+}
+
+h4 {
+    /* border: 2px solid brown; */
+    text-align: right;
+}
+
+#btn2 {
+    /* border: 2px solid red; */
+    width: 40%;
+    display: block;
+    /* margin: auto; */
+    margin-left: 62%;
+}
+
+.cen {
+    width: 30%;
+    margin: auto;
+}
+
+#contact {
+    width: 60%;
+    /* border: 2px solid green;   */
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    margin-top: 20px;
+    gap: 15px
+}
+
+#contact>div {
+    /* border: 2px solid red; */
+    height: 90%;
+    /* width: 50%; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#check>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#contact>div>p {
+    /* border: 2px solid rebeccapurple; */
+    width: 80%;
+    text-align: center;
+    line-height: 38px;
+    color: black;
+}
+
+#contact>div>i {
+    width: 20%;
+    /* border: 2px solid green; */
+    font-size: 40px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 45%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#bag>div:first-child>p {
+    width: 200px !important;
+    position: absolute;
+    right: 18%;
+}
