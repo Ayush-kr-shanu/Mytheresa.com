@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment page</title>
+    <style>
+        html {
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+            height: 100%;
+            background-color: white;
+            letter-spacing: 0.06em;
+            color: rgb(179, 172, 172);
+            font-size: 120%;
+        }
+        
+        #container {
+            width: 90%;
+            margin: auto;
+        }
+        
+        #payment-navbar {
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .div2 {
+            margin-top: 70px;
+        }
+        
+        .card-payment {
+            display: grid;
+            grid-template-columns: 20% 50%;
+            justify-content: space-between;
+        }
+        
+        .select-card {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 30px;
+        }
+        
+        input {
+            height: 45px;
+            margin-bottom: 20px;
+            margin-top: 10px;
+            font-size: 16px;
+            border: 1px solid rgb(227, 202, 202);
+        }
+        
+        .card-images {
+            display: flex;
+            gap: 30px;
+            margin: 20px 0;
+        }
+        
+        .info {
+            display: grid;
+            /* grid-template-columns: 30% 30% 30%; */
+        }
+        
+        .a {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 50px;
+        }
+        
+        .a>p:last-child {
+            background-color: black;
+            color: white;
+            padding: 10px;
+        }
+        
+        .bottom {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+        }
+        
+        .bottom>div {
+            width: 38%;
+            height: 200px;
+            border: 1px solid black;
+            margin-bottom: 100px;
+            text-align: center;
+            box-sizing: border-box;
+            padding: 30px
+        }
+        
+        .bottom p {
+            line-height: 10px;
+        }
+        
+        .note {
+            width: 500px;
+            /* font-size: 15px */
+        }
+        
+        .logo {
+            margin: 150px auto 40px auto;
+            width: 295px
+        }
+        
+        .info-sub {
+            display: flex;
+        }
+        
+        .info-sub>div:nth-child(2) {
+            margin-left: 50px;
+        }
+        
+        .dark {
+            color: black;
+        }
+        #main {
+            width: 80%;
+            margin: auto;
+        }
+        
+        
+        @media all and (max-width:600px) {
+            .card-payment {
+                display: inline-block;
+            }
+            .bottom {
+                display: inline-block;
+            }
+            .bottom>div {
+                width: 90%;
+                margin: 20px auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+
+        <div class="logo">
+            <img src="https://www.mytheresa.com/skin/frontend/mytheresa/default/images/logo.png?v=20220614T171237" width="294px" alt="">
+        </div>
+
+        <div id="container">
+
+            <div id="payment-navbar">
+                <p>SHOPPIN BAG</p>
+                <p>DELEVERY</p>
+                <p class="dark">PAYMENT</p>
+                <p>CONFIRM</p>
+            </div>
+            <hr>
+            <div class="div2">
+                <p class="dark">PAYMENT METHOD</p>
+                <p>Please select your preferred payment method for this order.</p>
+            </div>
+            <hr>
+
+            <div class="card-payment">
+                <div class="select-card">
+                    <input type="radio" name="payment-type" value="card"><img src="/card.jpg" height=70px alt="">
+                </div>
+
+
+
+
+                <div class="card-details">
+                    <div class="card-images">
+                        <img src="/american express.PNG" alt="">
+                        <img src="/visa.PNG" alt="">
+                        <img src="/mastercard.PNG" alt="">
+                        <img src="/d.PNG" alt="">
+                        <img src="/jcb.PNG" alt="">
+                        <img src="/uno.PNG" alt="">
+
+                    </div>
+                    <div class="info">
+                        <label for="name">Name on card *</label>
+                        <input type="text">
+                        <label for="Credit card number">Credit card number *</label>
+                        <input type="number" placeholder="1111 2222 3333 4444">
+                        <div class="info-sub">
+                            <div>
+                                <label for="exp-date"> Expiration date *</label><br>
+                                <input type="text" placeholder="MM/YY">
+                            </div>
+                            <div>
+                                <label for="cvv">CVC/CVV*</label> <br>
+                                <input type="number" style="margin-right:10px" placeholder="123">
+                            </div>
+                            <div>
+                                <br><br>
+                                <a href="" style="color :black">what is this ?</a>
+                            </div>
+                        </div>
+                        <p>* required field</p>
+                    </div>
+                </div>
+
+            </div>
+            <hr>
+            <div style="margin-left : 40px">
+                <input type="radio" name="payment-type" value="paypel">
+
+                <img src="/paypal icon.PNG" alt="">
+                <p style="margin-top:-10px"> Immediate Shipping</p>
+
+
+            </div>
+            <hr>
+            <div class="a" class="paypel">
+                <p class="dark back">BACK TO DELIVERY</p>
+                <p class="next">PROCEED TO CHECKOUT</p>
+            </div>
+            <p class="note">Please note: By clicking this button, all data listed on this page will be erased for security reasons.</p>
+            <hr>
+            <p style="text-align :center ">You can also place your order via telephone.</p>
+            <div class="bottom">
+                <div>
+                    <img src="/phone.png" alt="error">
+
+
+                    <p class="dark"> CALL US </p>
+
+                    <p> +49 89 127695-101</p>
+
+                    <p> Available 24/7
+                    </p>
+                </div>
+                <div>
+                    <img src="/email.png" alt="">
+                    <p class="dark"> MAIL US</p>
+
+                    <p> customercare@mytheresa.com</p>
+
+                </div>
+            </div>
+            <hr>
+            <img src="/bottom.jpg" width="100%" alt="">
+
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script src="payment.js"></script>
+
+</script>

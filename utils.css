@@ -1,0 +1,49 @@
+.text-center{
+    text-align: center;
+}
+
+.image-width{
+    width:100%;
+}
+
+.margin-10{
+    margin: 10px 0px;
+}
+.box-shadow{
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;;
+}
+.m-auto{
+    margin:auto;
+}
+.justify-center{
+justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+
+.flex{
+    display: flex;
+}
+.space-around{
+    justify-content: space-around;
+}
+
+.font-family{
+    font-family: Futura-Medium, "Century Gothic", "Gill Sans", Helvetica, Arial, sans-serif;
+
+}
+.grid{
+    display: grid;
+}
+.block{
+    display: block;
+}
+.buttons {
+    font-size:14px;
+    display: inline-block;
+    background-color:black;
+    color:white;
+    margin-left:44%;
+    padding:10px 20px;
+}

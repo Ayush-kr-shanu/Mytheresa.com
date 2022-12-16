@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/footer.css">
+    <link rel="stylesheet" href="/custom.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&family=Poppins:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
+    <style>
+        #maina {
+            width: 80%;
+            margin: auto;
+            /* border: 2px solid red; */
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+            /* height: 700px; */
+        }
+        
+        #maina>div {
+            /* border: 2px solid blue; */
+            /* height: 100%; */
+            padding: 20px;
+            line-height: 30px;
+        }
+        
+        .flexa {
+            width: 10%;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        #professiona {
+            width: 91%;
+            height: 40px;
+            margin-top: 5px;
+        }
+        
+        #form>input {
+            width: 90%;
+            height: 40px;
+            margin-top: 8px;
+        }
+        
+        #form1>input {
+            width: 90%;
+            height: 40px;
+            margin-top: 8px;
+        }
+        
+        .flex1a {
+            /* border: 2px solid rebeccapurple; */
+            width: 90%;
+            display: flex;
+            /* justify-content: space-between; */
+        }
+        
+        .whitebtna {
+            border: none;
+            background-color: #f2f2f2;
+            color: black;
+            font-family: poppins;
+            width: 30px;
+        }
+        
+        .whitebtna:hover {
+            border: none;
+            background-color: #e3d4d4;
+            color: black;
+            font-family: poppins;
+            width: 30px;
+        }
+        
+        .popa {
+            width: 90%;
+            font-family: poppins;
+            font-size: 13px;
+            color: black;
+        }
+        
+        .popbiga {
+            font-family: poppins;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        
+        button {
+            width: 15%;
+            border: none;
+            background-color: black;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        
+        .bolda {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <div id="maina">
+        <div>
+            <p class="popbiga">CREATE AN ACCOUNT</p>
+            <p class="popa">Please enter the following information to create your account.</p>
+            <div class="flexa">
+                <input type="radio" id="ms" name="fav_language" value="ms">
+                <label for="ms" class="popbig">Ms</label><br>
+                <input type="radio" id="mrs" name="fav_language" value="mrs">
+                <label for="mrs" class="popbig">Mrs</label><br>
+                <input type="radio" id="mr." name="fav_language" value="mr.">
+                <label for="mr." class="popbig">Mr.</label>
+            </div>
+            <select id="professiona">
+                <option value="academic">Academic title</option>
+                <option value="dr">Dr</option>
+                <option value="professor">Professor</option>
+                <option value="profdoc">Prof. Dr.</option>
+            </select>
+            <form id="form">
+                <input type="text" id="fname" placeholder="first name *"><br>
+                <input type="text" id="lname" placeholder="last name *"><br>
+                <input type="email" id="email" placeholder="Email address *" required><br>
+                <input type="password" id="pass" placeholder="Password *" required><br>
+                <input type="password" id="repass" placeholder="Confirm Password *" required>
+                <div class="flex1">
+
+                    <input type="checkbox" required><span class="bolder popa bolda">From now on I will receive the Mytheresa Newsletter with selected fashion offers. If I do not wish to receive the newsletter, I can unsubscribe at any time free of charge at privacy@mytheresa.com.</span>
+
+                </div>
+                <p class="popa bolda">I agree that Mytheresa may insert analytical web beacons into the newsletter and create a personalized user profile based on my purchase and usage behavior, including sending a notification when I have placed something in the shopping
+                    cart. Further details can be found in our Privacy Policy, clause 5. I understand that I can revoke my consent at any time by emailing privacy@mytheresa.com.
+
+                </p>
+                <p>* required fields</p>
+                <input type="submit" class="whitebtn">
+            </form>
+        </div>
+        <div>
+
+            <p class="popbiga">ALREADY REGISTERED?</p>
+            <p class="popa">If you have an account with us, please log in.</p>
+            <form id="form1">
+                <input type="email" id="email1" placeholder="Email address *"><br>
+                <input type="password" id="pass1" placeholder="Password *"><br>
+
+
+                <p class="popa">* required fields</p>
+
+                <a href="#" class="popa" style="display:block ;">Forgot Your Password?</a>
+
+                <button id="login" type="submit">Login</button>
+                <p class="popa">At Mytheresa, we keep your information secure. As a result, it will be necessary for you to log in to your account before you are able to place an order or change the information on your account. You will be asked to log in to complete
+                    your order even if you have already been greeted on the website.</p>
+            </form>
+
+        </div>
+    </div>
+    <hr>
+    <div id="footer"></div>
+</body>
+
+</html>
+<script src="./signup.js"></script>
