@@ -1,0 +1,11 @@
+var data = JSON.parse(localStorage.getItem("userdetail"))
+    document.getElementById("dispname").innerText = data[0].fname
+    document.getElementById("dispemail").innerText = data[0].email
+    document.getElementById("mainname").innerText = data[0].fname
+    var ud = JSON.parse(localStorage.getItem("udet"))
+    var add = JSON.parse(localStorage.getItem("add"))
+    document.getElementById("dispname").innerText = ud[0].name
+    document.getElementById("mainname").innerText = ud[0].name
+    document.getElementById("dispemail").innerText = ud[0].email
+    document.getElementById("addreal").innerText = add[0].add
+    document.getElementById("addreal2").innerText = add[0].add
