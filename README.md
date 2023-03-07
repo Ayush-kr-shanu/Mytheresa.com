@@ -1,5 +1,8 @@
 # faded-bee-315
 Construct week Project
+
+Deployed link:- https://aquamarine-gnome-8fd34c.netlify.app
+
 My project is about to replicate the mytheresa.com and I have made it and add some functionalities in that tech stack I have used is HTML,CSS,JS
 I have created my project from scratch and took 5 days to complete and currently working on Responsiveness of layout
 Some functionality is mentioned below-:
